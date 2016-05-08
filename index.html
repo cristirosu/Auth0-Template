@@ -1,0 +1,29 @@
+<html ng-app='myApp'>
+<head>
+<link rel="stylesheer" href="node_modules/angular-material/angular-material.css" />
+
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script src="http://cdn.auth0.com/w2/auth0-6.7.js"></script>
+	<script type="text/javascript" src="https://cdn.auth0.com/js/lock-9.0.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-animate/angular-animate.js"></script>
+	<script type="text/javascript" src="node_modules/angular-aria/angular-aria.js"></script>
+	<script type="text/javascript" src="node_modules/angular-material/angular-material.js"></script>
+	<script type="text/javascript" src="node_modules/angular-jwt/dist/angular-jwt.js"></script>
+	<script type="text/javascript" src="node_modules/angular-storage/dist/angular-storage.js"></script>
+	<script type="text/javascript" src="node_modules/auth0-angular/build/auth0-angular.js"></script>
+	<script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+	<script type="text/javascript" src="app.js"></script>
+	<script src="directives/toolbar.dir.js"></script>
+	<script src="profile/profile.ctrl.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+	<toolbar></toolbar>
+
+	<div layout-padding>
+		<ui-view></ui-view>
+	</div>
+
+</body>
+</html>

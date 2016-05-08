@@ -1,0 +1,8 @@
+
+
+
+  <button ng-click="login()" ng-if="!auth.isAuthenticated">Login</button>
+  <button ng-click="logout()" ng-if="auth.isAuthenticated">Logout</button>
+  <button ng-if="auth.isAuthenticated" ui-sref="profile">Profiles</button>
+
+  Auth state : {{toolbar.auth.isAuthenticated}}
